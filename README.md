@@ -563,7 +563,6 @@ Patients click and grade their discomfort on a 1-to-10 Visual Analogue Scale (VA
 
 - 🌐 **Official Website**: [https://www.plexapro.com](https://www.plexapro.com)
 - 💼 **Careers & Engineering**: [https://www.plexapro.com/careers](https://www.plexapro.com/careers)
-- 🔒 **Security Disclosures**: `security@plexapro.com`
 
 ---
 
