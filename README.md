@@ -48,21 +48,8 @@ Originally engineered and battle-tested by **[Plexa](https://www.plexapro.com)**
 - 🩺 **Telehealth & Physical Therapy Portals** (Patient intake, Visual Analogue Scale [VAS] pain mapping)
 - 🪑 **Ergonomics & Occupational Health Systems** (Repetitive strain tracking, posture analysis)
 
-```text
-       Anterior (Front View)                   Posterior (Back View)
-             [  Head  ]                              [  Neck  ]
-            /    ||    \                            /    ||    \
-     Deltoids  [Chest]  Deltoids            Trapezius [Upper Back] Trapezius
-        |        ||        |                    |         ||        |
-     Biceps    [Abs]    Biceps               Triceps [Lower Back] Triceps
-        |        ||        |                    |         ||        |
-     Forearms [Obliques] Forearms            Forearms [Gluteals] Forearms
-     [Hands]  /      \  [Hands]              [Hands]  /        \  [Hands]
-            [Quads/Adductors]                       [Hamstrings]
-                [Knees]                                [Calves]
-              [Shins/Soleus]                         [Soleus/Ankles]
-                [Feet]                                 [Feet]
-```
+![Uploading image.png…]()
+
 
 ---
 
