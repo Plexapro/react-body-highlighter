@@ -48,7 +48,8 @@ Originally engineered and battle-tested by **[Plexa](https://www.plexapro.com)**
 - 🩺 **Telehealth & Physical Therapy Portals** (Patient intake, Visual Analogue Scale [VAS] pain mapping)
 - 🪑 **Ergonomics & Occupational Health Systems** (Repetitive strain tracking, posture analysis)
 
-![Uploading image.png…]()
+<img width="475" height="778" alt="image" src="https://github.com/user-attachments/assets/38493367-fee4-448e-8817-e2594779087a" />
+
 
 
 ---
