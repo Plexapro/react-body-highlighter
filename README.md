@@ -37,9 +37,9 @@
 
 ## 🌟 Overview
 
-**`@plexapro/react-body-highlighter`** is a production-grade, zero-dependency React component library for visualizing and interacting with the human musculoskeletal system. It offers pixel-accurate anterior (front) and posterior (back) anatomical vector SVGs, standalone extremity renderers (hands and feet), customizable color palettes, frequency/intensity heatmap calculations, click/hover interaction hooks, and tooltip rendering.
+**`@plexapro/react-body-highlighter`** is a zero-dependency React component library for visualizing and interacting with the human musculoskeletal system. It offers anterior (front) and posterior (back) anatomical vector SVGs, standalone extremity renderers (hands and feet), customizable color palettes, frequency/intensity heatmap calculations, click/hover interaction hooks, and tooltip rendering.
 
-Originally engineered and battle-tested by **[Plexa](https://www.plexapro.com)** for enterprise workplace safety and real-time construction incident documentation, this library has been decoupled and open-sourced to empower developers building:
+Developed by **[Plexa](https://www.plexapro.com)** for SaaS workplace safety and real-time construction incident documentation, this library has been decoupled and open-sourced to empower developers building:
 - 🦺 **Workplace Safety & EHS Platforms** (OSHA incident logs, injury tracking, site hazard heatmaps)
 - 🏋️ **Fitness & Bodybuilding Trackers** (Muscle fatigue analysis, recovery timers, workout logs)
 - 🩺 **Telehealth & Physical Therapy Portals** (Patient intake, Visual Analogue Scale [VAS] pain mapping)
@@ -53,15 +53,15 @@ Originally engineered and battle-tested by **[Plexa](https://www.plexapro.com)**
 
 ## ✨ Key Features
 
-- ⚡ **Zero Runtime Dependencies**: Renders clean, high-performance vector SVGs directly into the React virtual DOM with zero heavy external libraries.
-- 📐 **Dual Anatomical Perspectives**: High-definition Anterior (front) and Posterior (back) body models with 42 distinct anatomical muscle regions and bilateral subdivision support.
-- 🖐️ **Dedicated Extremities Specialists**: Standalone `HandSvg` and `FootSvg` vector components with left/right bilateral scaling, custom borders, and custom fill colors.
-- 🧩 **Composite `BodyVisualizer` Layout**: Turnkey dual-view component with side labels ("Right Side" / "Left Side"), extremity preview chips, active selection tags, and unified click handlers.
-- 📊 **Dynamic Intensity & Heatmap Engine**: Pass frequency scores, workout reps, or pain severity (1–10 VAS) to automatically interpolate multi-color gradient heatmaps.
-- 🎨 **Unlimited Theming & Customization**: Granular control over base body fill, stroke colors, stroke widths, hover highlights, and dark/light modes.
-- 🛡️ **TypeScript First**: 100% written in TypeScript with full strict type definitions, autocomplete for all 42 muscle slugs, and exported data contracts.
-- 🚀 **Next.js & SSR Ready**: Packaged with `"use client"` directives for seamless Next.js App Router, Remix, and Gatsby compatibility.
-- 📦 **Dual ESM & CommonJS Bundling**: Cleanly bundles to `dist/index.js` (ESM), `dist/index.cjs` (CJS), and `dist/index.d.ts` declaration maps.
+- **Zero Runtime Dependencies**: Renders clean, high-performance vector SVGs directly into the React virtual DOM with zero heavy external libraries.
+- **Dual Anatomical Perspectives**: High-definition Anterior (front) and Posterior (back) body models with 42 distinct anatomical muscle regions and bilateral subdivision support.
+- **Dedicated Extremities Specialists**: Standalone `HandSvg` and `FootSvg` vector components with left/right bilateral scaling, custom borders, and custom fill colors.
+- **Composite `BodyVisualizer` Layout**: dual-view component with side labels ("Right Side" / "Left Side"), extremity preview chips, active selection tags, and unified click handlers.
+- **Dynamic Intensity & Heatmap Engine**: Pass frequency scores, workout reps, or pain severity (1–10 VAS) to automatically interpolate multi-color gradient heatmaps.
+- **Unlimited Theming & Customization**: Granular control over base body fill, stroke colors, stroke widths, hover highlights, and dark/light modes.
+- **TypeScript First**: 100% written in TypeScript with full strict type definitions, autocomplete for all 42 muscle slugs, and exported data contracts.
+- **Next.js & SSR Ready**: Packaged with `"use client"` directives for seamless Next.js App Router, Remix, and Gatsby compatibility.
+- **Dual ESM & CommonJS Bundling**: Cleanly bundles to `dist/index.js` (ESM), `dist/index.cjs` (CJS), and `dist/index.d.ts` declaration maps.
 
 ---
 
@@ -386,7 +386,7 @@ export function ExtremitiesShowcase() {
 
 ## 🧩 Composite `BodyVisualizer`
 
-The high-level `BodyVisualizer` component packages anterior and posterior models, extremity chips, side orientation labels, and active selection state into a complete turnkey widget:
+The high-level `BodyVisualizer` component packages anterior and posterior models, extremity chips, side orientation labels, and active selection state into a complete widget:
 
 ```tsx
 import React, { useState } from 'react'
