@@ -16,9 +16,6 @@
   <strong>High-performance, type-safe interactive human body highlighter with 42 anatomical regions, bilateral extremities (hands & feet), intensity heatmaps, custom theming, and zero runtime dependencies.</strong>
 </p>
 
-<p align="center">
-  <a href="https://plexapro.github.io/react-body-highlighter/"><strong>🚀 Explore Interactive Live Playground & Documentation »</strong></a>
-</p>
 
 <p align="center">
   <a href="#-overview">Overview</a> •
