@@ -1,0 +1,24 @@
+import { defineConfig } from 'tsup'
+
+export default defineConfig({
+  entry: ['src/index.ts'],
+  format: ['esm', 'cjs'],
+  dts: true,
+  splitting: false,
+  sourcemap: true,
+  clean: true,
+  treeshake: false,
+  minify: false,
+  external: ['react', 'react-dom', 'react/jsx-runtime'],
+  banner: {
+    js: '"use client";'
+  },
+  esbuildOptions(options) {
+    options.pure = ['console.log', 'console.info']
+  },
+  outExtension({ format }) {
+    return {
+      js: format === 'esm' ? '.js' : '.cjs'
+    }
+  }
+})

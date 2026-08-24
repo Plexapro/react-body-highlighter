@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 💬 Community Discussions & Questions
+    url: https://github.com/Plexapro/react-body-highlighter/discussions
+    about: Ask questions, share ideas, and connect with other developers using React Body Highlighter.
+  - name: 🔒 Security Vulnerability Report
+    url: mailto:security@plexapro.com
+    about: Report potential security vulnerabilities privately to the Plexa security team.
+  - name: 🏢 Plexa Construction Platform
+    url: https://www.plexapro.com
+    about: Learn more about Plexa and how we use React Body Highlighter in enterprise construction safety.
